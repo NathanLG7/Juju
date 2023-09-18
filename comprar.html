@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="comprar.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="caixa">
+            <img src="unnamed.png" class="jujuimage">
+            <nav>
+                <ul>
+                    <li><a href="cardaipo.html">Voltar</a></li>
+                    <li><a href="1-comeso.html">Voltar para o Sait</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome"> Nome e Sobrnome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seu email@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input class="Fone" type="tel" id="telefone" class="input-padrao" required placeholder="+(XX) XXXXX-XXXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea required>
+
+            <fieldset>
+                <p class="contato"> Como predere o nosso contato? </p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-watsapp"><input type="radio" name="contato" value="wastsapp"
+                        id="radio-watsapp" checked>Wastsapp</label>
+
+            </fieldset> 
+
+            <fieldset>
+                <p cllas="select"><h2> Quantidade </h2></p>
+                <select>
+                    <option>8</option>
+                    <option>6</option>
+                    <option>4</option>
+                    <option>2</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+
+            <input type="submit" value="Comprar" class="enviar">
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
